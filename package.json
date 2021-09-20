@@ -50,6 +50,7 @@
   "license": "UNLICENSED",
   "dependencies": {
     "knex": "^0.95.11",
+    "moment": "^2.29.1",
     "pg": "^8.7.1",
     "tailwindcss": "^2.2.14"
   }

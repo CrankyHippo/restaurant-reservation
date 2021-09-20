@@ -10,6 +10,7 @@ import { next, previous, today } from "../utils/date-time";
 import { useHistory } from "react-router-dom";
 import ReservationsList from "../reservation/ReservationsList";
 import TablesList from "../tables/TablesList";
+import moment from "moment";
 
 /**
  * Defines the dashboard page.
@@ -23,12 +24,6 @@ function Dashboard({ date }) {
   const [tables, setTables] = useState([]);
   const history = useHistory();
   const filterResults = true;
-  const dateOptions = {
-    weekday: "long",
-    year: "numeric",
-    month: "long",
-    day: "numeric",
-  };
 
   useEffect(loadDashboard, [date]);
 
@@ -79,7 +74,7 @@ function Dashboard({ date }) {
             <div className="item-double">
               <h2>
                 Reservations for{" "}
-                {new Date(date).toLocaleDateString("en-US", dateOptions)}
+                {moment(date).format('dddd MMM DD YYYY')}
               </h2>
             </div>
             <div className="item centered">

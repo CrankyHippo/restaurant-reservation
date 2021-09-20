@@ -90,13 +90,13 @@ export const ReservationForm = ({
           </div>
           <div className="group-row">
             <button
-              className="black"
+              className="red"
               type="button"
               onClick={() => history.goBack()}
             >
               Cancel
             </button>
-            <button className="yellow" type="submit">
+            <button className="black" type="submit">
               Submit
             </button>
           </div>
