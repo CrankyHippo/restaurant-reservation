@@ -85,7 +85,7 @@ function Dashboard({ date }) {
             <div className="item centered">
               <div className="group-row">
                 <button
-                  className="item yellow"
+                  className="item black"
                   onClick={() =>
                     history.push(`/dashboard?date=${previous(date)}`)
                   }
@@ -93,13 +93,13 @@ function Dashboard({ date }) {
                   Previous
                 </button>
                 <button
-                  className="item yellow"
+                  className="item black"
                   onClick={() => history.push(`/dashboard?date=${today()}`)}
                 >
                   Today
                 </button>
                 <button
-                  className="item yellow"
+                  className="item black"
                   onClick={() => history.push(`/dashboard?date=${next(date)}`)}
                 >
                   Next

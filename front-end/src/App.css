@@ -41,14 +41,16 @@ nav ul {
 hr {
   width: 100%;
   border-style: solid;
-  border-color: #03cafb;
-  background-color: #03d2f6;
+  border-color: #000000;
+  background-color: #000000;
+  border-bottom: 4px solid black;
   margin: 0px;
 }
 
 #tables hr {
-  border-color: #2960ad;
-  background-color: #2960ad;
+  border-bottom: 4px solid black;
+  border-color: #000000;
+  background-color: #000000;
 }
 
 /* ------------ FLEXBOX ------------ */
@@ -91,12 +93,12 @@ hr {
 
 .reservation {
   flex: 2;
-  border-bottom: 2px solid #ef4431;
+  border-bottom: 2px solid #000000;
 }
 
 .table {
   flex: 1;
-  border-bottom: 2px solid #2960ad;
+  border-bottom: 2px solid #000000;
 }
 
 .item {
@@ -133,7 +135,7 @@ button {
   padding: 10px;
   border: 0;
   border-radius: 5px;
-  color: #f5ebe8;
+  color: #ffffff;
   font-family: "sofia-pro", "brandon-grotesque", sans-serif;
   text-transform: uppercase;
   font-size: 16px;
@@ -160,12 +162,12 @@ button {
 }
 
 button:hover {
-  background: #ffffff;
+  background: #00e0e0;
   color: #000000;
 }
 
-.yellow {
-  background: #f67904;
+.black {
+  background: #000000;
 }
 
 .black {
@@ -187,7 +189,7 @@ h1 {
   font-weight: 600;
   margin: 0px;
   padding: 0px;
-  color: #ef4431;
+  color: #000000;
 }
 
 h2,
@@ -201,14 +203,14 @@ p {
 
 h2 {
   font-size: 40px;
-  font-style: italic;
+  
   margin-top: 25px;
   margin-bottom: 15px;
 }
 
 h3 {
   font-size: 40px;
-  font-style: italic;
+  
   font-weight: 100;
   margin-top: 15px;
   margin-bottom: 15px;
@@ -216,7 +218,7 @@ h3 {
 
 h4 {
   font-size: 50px;
-  font-style: italic;
+  
   font-weight: 100;
   margin-top: 15px;
   margin-bottom: 15px;
@@ -236,7 +238,7 @@ p {
 }
 
 .table p {
-  font-style: italic;
+  font-style: bold;
 }
 
 a {
@@ -246,12 +248,12 @@ a {
 
 a:link,
 a:visited {
-  color: #ef4431;
+  color: #000000;
 }
 
 a:hover,
 a:active {
-  color: #ffc500;
+  color: #00e0e0;
 }
 
 .reservation a:link,
@@ -269,7 +271,7 @@ a:active {
   font-size: 40px;
   font-style: italic;
   margin-bottom: 20px;
-  color: #ef4431;
+  color: #fa1900;
 }
 
 .inline {
@@ -281,7 +283,7 @@ a:active {
 }
 
 .red {
-  color: #ef4431;
+  color: #fa1900;
 }
 
 /* -------- FORM -------- */
@@ -298,11 +300,11 @@ form textarea {
   width: 100%;
   margin: 5px 0 20px 0;
   padding: 10px;
-  border: 3px solid #ef4431;
+  border: 3px solid #000000;
   border-radius: 5px;
   font-family: "sofia-pro", "Times New Roman", serif;
   font-size: 25px;
-  color: #2960ad;
+  color: #000000;
   outline: none;
   resize: none;
 }
