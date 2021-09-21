@@ -64,7 +64,7 @@ export const Search = () => {
               onChange={changeHandler}
             />
           </div>
-          <button type="submit" className="yellow">
+          <button type="submit" className="black">
             Find
           </button>
         </form>
