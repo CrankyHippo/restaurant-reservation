@@ -1,10 +1,5 @@
 import React, { useEffect, useState } from "react";
-import {
-  listReservations,
-  listTables,
-  finishTable,
-  updateStatus,
-} from "../utils/api";
+import { listReservations, listTables, finishTable, updateStatus } from "../utils/api";
 import ErrorAlert from "../layout/ErrorAlert";
 import { next, previous, today } from "../utils/date-time";
 import { useHistory } from "react-router-dom";
@@ -18,6 +13,7 @@ import moment from "moment";
  *  the date for which the user wants to view reservations.
  * @returns {JSX.Element}
  */
+
 function Dashboard({ date }) {
   const [reservations, setReservations] = useState([]);
   const [reservationsError, setReservationsError] = useState(null);
@@ -73,8 +69,7 @@ function Dashboard({ date }) {
           <div className="group">
             <div className="item-double">
               <h2>
-                Reservations for{" "}
-                {moment(date).format('dddd MMM DD YYYY')}
+                Reservations for {moment(date).format("dddd MMM DD YYYY")}
               </h2>
             </div>
             <div className="item centered">
