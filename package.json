@@ -50,5 +50,8 @@
   "license": "UNLICENSED",
   "engines": {
     "node": "14.15.1"
+  },
+  "dependencies": {
+    "moment": "^2.29.1"
   }
 }
