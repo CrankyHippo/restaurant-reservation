@@ -1,5 +1,4 @@
 import React from "react";
-
 import { Link } from "react-router-dom";
 
 /**
@@ -8,7 +7,7 @@ import { Link } from "react-router-dom";
  * @returns {JSX.Element}
  */
 
- function Menu() {
+function Menu() {
   return (
     <div className="group">
       <header>

@@ -152,7 +152,7 @@ button {
   font-family: "sofia-pro", "brandon-grotesque", sans-serif;
   font-size: 16px;
   text-decoration: none;
-  background-color: #ffffff;
+  background-color: #c7c7c7;
   text-transform: uppercase;
   transition-duration: 0.4s;
 }
@@ -199,14 +199,14 @@ p {
 
 h2 {
   font-size: 40px;
-  
+
   margin-top: 25px;
   margin-bottom: 15px;
 }
 
 h3 {
   font-size: 40px;
-  
+
   font-weight: 100;
   margin-top: 15px;
   margin-bottom: 15px;
@@ -214,7 +214,7 @@ h3 {
 
 h4 {
   font-size: 50px;
-  
+
   font-weight: 100;
   margin-top: 15px;
   margin-bottom: 15px;
@@ -275,11 +275,12 @@ a:active {
 }
 
 .blue {
-  color: #2960ad;
+  font-weight: bold;
+  color: #5d5d5d;
 }
 
 .red {
-  color: #fa1900;
+  color: #00b3fa;
 }
 
 /* -------- FORM -------- */
