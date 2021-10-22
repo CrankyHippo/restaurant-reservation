@@ -18,8 +18,10 @@ The original assignment can be found at [Thinkful-Ed/starter-restaurant-reservat
 
 I decided to make my project more modular by seperating the front and back end into their own repositories. Included in this repository are both front and back end. Below are the links to my broken out repositories,
 
-### [Frontend](https://github.com/CrankyHippo/restaurants-frontend) - Deployed via Vercel
-### [Backend](https://github.com/CrankyHippo/restaurant-backend) - Deployed via Heroku 
+### Application Deployed -  [Periodic Tables](https://restraunt-frontend.vercel.app/dashboard)
+
+### [Github Frontend](https://github.com/CrankyHippo/restaurants-frontend) - Deployed via Vercel
+### [Github Backend](https://github.com/CrankyHippo/restaurant-backend) - Deployed via Heroku 
 
 # Client Descriptions
 
