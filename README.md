@@ -1,6 +1,6 @@
 # [Restaurant Reservation Capstone](https://restraunt-frontend.vercel.app/dashboard)
 
-## Summery
+## Summary
 
 This full-stack web application I completed as my capstone project for Thinkful's Bootcamp Engineering Program. The requirements specified using React for the client, Node.js, Express for the API, and PostgreSQL for the database. 
 
